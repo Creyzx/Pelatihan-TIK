@@ -1,23 +1,23 @@
-body {
-  background-color: #b4b4b4;
-  font-family: Arial, sans-serif;
-  color: #616161;
-}
+body { /* Mengatur gaya dasar seluruh halaman */
+  background-color: #b4b4b4; /* Memberi warna latar abu-abu */
+  font-family: Arial, sans-serif; /* Menggunakan Arial sebagai jenis huruf */
+  color: #616161; /* Mengatur warna teks menjadi abu-abu gelap */
+} /* Menutup aturan gaya body */
 
-.Kartu-profile {
-  width: 350px;
-  margin: 55px auto;
-  padding: 30px;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+.Kartu-profile { /* Mengatur tampilan kartu profil */
+  width: 350px; /* Menentukan lebar kartu sebesar 350 piksel */
+  margin: 55px auto; /* Memberi jarak atas-bawah 55 piksel dan memusatkan kartu */
+  padding: 30px; /* Memberi ruang dalam sebesar 30 piksel */
+  background-color: white; /* Memberi warna latar putih pada kartu */
+  border-radius: 20px; /* Membuat sudut kartu membulat */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Menambahkan bayangan halus pada kartu */
+} /* Menutup aturan gaya kartu profil */
 
-.Kartu-profile img {
-  width: 150px;
-  border-radius: 50%;
-}
+.Kartu-profile img { /* Mengatur gambar di dalam kartu profil */
+  width: 150px; /* Menentukan lebar gambar sebesar 150 piksel */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+} /* Menutup aturan gaya gambar */
 
-.Kartu-profile {
-  text-align: center;
-}
+.Kartu-profile { /* Mengatur perataan isi kartu profil */
+  text-align: center; /* Memusatkan teks di dalam kartu */
+} /* Menutup aturan gaya kartu profil */
